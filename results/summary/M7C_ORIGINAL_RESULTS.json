@@ -1,0 +1,224 @@
+{
+  "status": "PASS_EXECUTION",
+  "hypothesis_supported": null,
+  "interpretation": "PASS_EXECUTION only means models trained and were evaluated, not Belief > Point.",
+  "note": "One high-level choice, optionally followed by paid localization request. The fixed controller uses route waypoints; policy does not learn wheel steering.",
+  "train_episodes_per_policy": 240,
+  "eval_episodes_per_regime": 24,
+  "preflight": {
+    "geometry_gate": "PASS",
+    "empirical_reference_return": {
+      "low": {
+        "short": 17.294166666666666,
+        "wide": 16.379166666666666
+      },
+      "high": {
+        "short": -14.9425,
+        "wide": 8.3425
+      }
+    },
+    "oracle_regime_aware_return": 12.818333333333332,
+    "best_uncertainty_blind_fixed_route_return": 12.360833333333332,
+    "extra_information_return": 0.4574999999999996,
+    "caveat": "Reference controllers and balanced low/high regime assumption. Not a bound on all possible learned policies; observation-based Point policy can sometimes infer regime indirectly."
+  },
+  "results": {
+    "point": {
+      "training": {
+        "low": {
+          "n": 120,
+          "success": 120,
+          "collisions": 0,
+          "timeout": 0,
+          "mean_return": 16.837,
+          "request_rate": 0.20833333333333334,
+          "narrow_rate": 0.7333333333333333
+        },
+        "high": {
+          "n": 120,
+          "success": 42,
+          "collisions": 77,
+          "timeout": 1,
+          "mean_return": -8.3165,
+          "request_rate": 0.16666666666666666,
+          "narrow_rate": 0.725
+        },
+        "all": {
+          "n": 240,
+          "success": 162,
+          "collisions": 77,
+          "timeout": 1,
+          "mean_return": 4.26025,
+          "request_rate": 0.1875,
+          "narrow_rate": 0.7291666666666666
+        }
+      },
+      "updates": 1720
+    },
+    "point_live_eval": {
+      "low": {
+        "n": 24,
+        "success": 24,
+        "collisions": 0,
+        "timeout": 0,
+        "mean_return": 17.280833333333334,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "high": {
+        "n": 24,
+        "success": 5,
+        "collisions": 19,
+        "timeout": 0,
+        "mean_return": -13.3075,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "all": {
+        "n": 48,
+        "success": 29,
+        "collisions": 19,
+        "timeout": 0,
+        "mean_return": 1.9866666666666664,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      }
+    },
+    "belief": {
+      "training": {
+        "low": {
+          "n": 120,
+          "success": 120,
+          "collisions": 0,
+          "timeout": 0,
+          "mean_return": 16.835500000000003,
+          "request_rate": 0.19166666666666668,
+          "narrow_rate": 0.7166666666666667
+        },
+        "high": {
+          "n": 120,
+          "success": 58,
+          "collisions": 60,
+          "timeout": 2,
+          "mean_return": -3.614833333333334,
+          "request_rate": 0.31666666666666665,
+          "narrow_rate": 0.35
+        },
+        "all": {
+          "n": 240,
+          "success": 178,
+          "collisions": 60,
+          "timeout": 2,
+          "mean_return": 6.610333333333333,
+          "request_rate": 0.25416666666666665,
+          "narrow_rate": 0.5333333333333333
+        }
+      },
+      "updates": 1720
+    },
+    "belief_live_eval": {
+      "low": {
+        "n": 24,
+        "success": 24,
+        "collisions": 0,
+        "timeout": 0,
+        "mean_return": 17.280833333333334,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "high": {
+        "n": 24,
+        "success": 19,
+        "collisions": 5,
+        "timeout": 0,
+        "mean_return": 8.043333333333333,
+        "request_rate": 0.0,
+        "narrow_rate": 0.0
+      },
+      "all": {
+        "n": 48,
+        "success": 43,
+        "collisions": 5,
+        "timeout": 0,
+        "mean_return": 12.662083333333333,
+        "request_rate": 0.0,
+        "narrow_rate": 0.5
+      }
+    },
+    "belief_fixed_eval": {
+      "low": {
+        "n": 24,
+        "success": 24,
+        "collisions": 0,
+        "timeout": 0,
+        "mean_return": 16.36916666666667,
+        "request_rate": 0.0,
+        "narrow_rate": 0.0
+      },
+      "high": {
+        "n": 24,
+        "success": 19,
+        "collisions": 5,
+        "timeout": 0,
+        "mean_return": 8.043333333333333,
+        "request_rate": 0.0,
+        "narrow_rate": 0.0
+      },
+      "all": {
+        "n": 48,
+        "success": 43,
+        "collisions": 5,
+        "timeout": 0,
+        "mean_return": 12.206249999999999,
+        "request_rate": 0.0,
+        "narrow_rate": 0.0
+      }
+    },
+    "belief_zero_eval": {
+      "low": {
+        "n": 24,
+        "success": 24,
+        "collisions": 0,
+        "timeout": 0,
+        "mean_return": 17.280833333333334,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "high": {
+        "n": 24,
+        "success": 5,
+        "collisions": 19,
+        "timeout": 0,
+        "mean_return": -13.3075,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "all": {
+        "n": 48,
+        "success": 29,
+        "collisions": 19,
+        "timeout": 0,
+        "mean_return": 1.9866666666666664,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      }
+    }
+  },
+  "limitations": [
+    "Single M3b geometry; no cross-map generalization.",
+    "The EKF was previously overconfident by NEES.",
+    "One training seed, exploratory evidence.",
+    "Route execution uses fixed, EKF-based waypoint controllers.",
+    "Point may infer part of reliability indirectly through shared sensors."
+  ],
+  "return_delta_belief_minus_point": 10.675416666666667,
+  "return_delta_belief_live_minus_fixed": 0.4558333333333344,
+  "m7c_design": {
+    "initialization": "M7b conditional P: fixed estimated mean, sampled physical truth",
+    "high_level_sensing": "4 goal-relative features, 16 zeros, 6 covariance-or-zeros, 1 can_fix bit",
+    "range_sensing": "Excluded only from high-level policy; MuJoCo physical geometry unchanged",
+    "training_source": "M7 masked Double DQN, both policies initialized from random weights",
+    "covariance_interpretation": "The experimental regimes differ in initial uncertainty and sensor noise. Point does not receive the regime; Belief receives P.",
+    "causal_limitation": "This tests information value with deliberately restricted high-level sensors, not the benefit of covariance over all possible observations."
+  }
+}

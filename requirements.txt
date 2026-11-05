@@ -1,0 +1,5 @@
+# Minimal direct dependencies; versions are not fully pinned.
+numpy
+mujoco
+torch
+matplotlib

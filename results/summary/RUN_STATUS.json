@@ -1,0 +1,23 @@
+{
+  "milestone": "M7d",
+  "status": "PASS_EXECUTION",
+  "design": "independent seeds 1/2 plus frozen seed0, same new evaluation seeds, always-wide baseline",
+  "train_episodes_per_policy": 240,
+  "evaluation_episodes_per_regime": 24,
+  "seed_ids": [
+    0,
+    1,
+    2
+  ],
+  "original_repositories_modified": false,
+  "completed_steps": [
+    "smoke",
+    "train_seed1",
+    "eval_seed1",
+    "train_seed2",
+    "eval_seed2",
+    "eval_seed0",
+    "eval_fixed_baselines"
+  ],
+  "source_run": "/home/sandbox/Repair_Bot_WS/mini_maze_uncertainty_rl/manual_pipeline/runs/M7C_TRAIN_20261105T094040Z_65593"
+}

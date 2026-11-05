@@ -1,0 +1,124 @@
+{
+  "status": "PASS_EXECUTION",
+  "label": "seed0",
+  "test_seeds": "fresh, common across all independent policies and fixed baselines",
+  "results": {
+    "point_live": {
+      "low": {
+        "n": 24,
+        "success": 24,
+        "collisions": 0,
+        "timeout": 0,
+        "mean_return": 17.301666666666666,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "high": {
+        "n": 24,
+        "success": 5,
+        "collisions": 18,
+        "timeout": 1,
+        "mean_return": -12.625833333333333,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "all": {
+        "n": 48,
+        "success": 29,
+        "collisions": 18,
+        "timeout": 1,
+        "mean_return": 2.3379166666666658,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      }
+    },
+    "belief_live": {
+      "low": {
+        "n": 24,
+        "success": 24,
+        "collisions": 0,
+        "timeout": 0,
+        "mean_return": 17.301666666666666,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "high": {
+        "n": 24,
+        "success": 15,
+        "collisions": 8,
+        "timeout": 1,
+        "mean_return": 2.328333333333333,
+        "request_rate": 0.0,
+        "narrow_rate": 0.0
+      },
+      "all": {
+        "n": 48,
+        "success": 39,
+        "collisions": 8,
+        "timeout": 1,
+        "mean_return": 9.815,
+        "request_rate": 0.0,
+        "narrow_rate": 0.5
+      }
+    },
+    "belief_fixed": {
+      "low": {
+        "n": 24,
+        "success": 24,
+        "collisions": 0,
+        "timeout": 0,
+        "mean_return": 16.38416666666667,
+        "request_rate": 0.0,
+        "narrow_rate": 0.0
+      },
+      "high": {
+        "n": 24,
+        "success": 15,
+        "collisions": 8,
+        "timeout": 1,
+        "mean_return": 2.328333333333333,
+        "request_rate": 0.0,
+        "narrow_rate": 0.0
+      },
+      "all": {
+        "n": 48,
+        "success": 39,
+        "collisions": 8,
+        "timeout": 1,
+        "mean_return": 9.356250000000001,
+        "request_rate": 0.0,
+        "narrow_rate": 0.0
+      }
+    },
+    "belief_zero": {
+      "low": {
+        "n": 24,
+        "success": 24,
+        "collisions": 0,
+        "timeout": 0,
+        "mean_return": 17.301666666666666,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "high": {
+        "n": 24,
+        "success": 5,
+        "collisions": 18,
+        "timeout": 1,
+        "mean_return": -12.625833333333333,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      },
+      "all": {
+        "n": 48,
+        "success": 29,
+        "collisions": 18,
+        "timeout": 1,
+        "mean_return": 2.3379166666666658,
+        "request_rate": 0.0,
+        "narrow_rate": 1.0
+      }
+    }
+  },
+  "note": "Fixed-cov and zero-cov ablations are intervention probes, not separately trained policies."
+}

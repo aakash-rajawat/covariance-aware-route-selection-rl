@@ -1,0 +1,17 @@
+{
+  "geometry_gate": "PASS",
+  "empirical_reference_return": {
+    "low": {
+      "short": 17.294166666666666,
+      "wide": 16.379166666666666
+    },
+    "high": {
+      "short": -14.9425,
+      "wide": 8.3425
+    }
+  },
+  "oracle_regime_aware_return": 12.818333333333332,
+  "best_uncertainty_blind_fixed_route_return": 12.360833333333332,
+  "extra_information_return": 0.4574999999999996,
+  "caveat": "Reference controllers and balanced low/high regime assumption. Not a bound on all possible learned policies; observation-based Point policy can sometimes infer regime indirectly."
+}

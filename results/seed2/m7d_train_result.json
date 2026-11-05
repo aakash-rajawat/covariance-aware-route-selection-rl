@@ -1,0 +1,89 @@
+{
+  "status": "PASS_EXECUTION",
+  "seed_index": 2,
+  "train_episodes_per_policy": 240,
+  "results": {
+    "point": {
+      "training": {
+        "low": {
+          "n": 120,
+          "success": 120,
+          "collisions": 0,
+          "timeout": 0,
+          "mean_return": 16.909,
+          "request_rate": 0.2,
+          "narrow_rate": 0.8
+        },
+        "high": {
+          "n": 120,
+          "success": 50,
+          "collisions": 70,
+          "timeout": 0,
+          "mean_return": -5.649333333333334,
+          "request_rate": 0.09166666666666666,
+          "narrow_rate": 0.775
+        },
+        "all": {
+          "n": 240,
+          "success": 170,
+          "collisions": 70,
+          "timeout": 0,
+          "mean_return": 5.629833333333333,
+          "request_rate": 0.14583333333333334,
+          "narrow_rate": 0.7875
+        }
+      },
+      "updates": 1712,
+      "weight_seed": 112756,
+      "training_seed_offset": 20000
+    },
+    "belief": {
+      "training": {
+        "low": {
+          "n": 120,
+          "success": 120,
+          "collisions": 0,
+          "timeout": 0,
+          "mean_return": 16.797666666666668,
+          "request_rate": 0.25833333333333336,
+          "narrow_rate": 0.7416666666666667
+        },
+        "high": {
+          "n": 120,
+          "success": 62,
+          "collisions": 57,
+          "timeout": 1,
+          "mean_return": -2.3093333333333335,
+          "request_rate": 0.2916666666666667,
+          "narrow_rate": 0.43333333333333335
+        },
+        "all": {
+          "n": 240,
+          "success": 182,
+          "collisions": 57,
+          "timeout": 1,
+          "mean_return": 7.244166666666667,
+          "request_rate": 0.275,
+          "narrow_rate": 0.5875
+        }
+      },
+      "updates": 1712,
+      "weight_seed": 112756,
+      "training_seed_offset": 20000
+    }
+  },
+  "protocol": {
+    "algorithm": "Double DQN with masked relocalization action",
+    "high_level_observations": "M7c: estimated goal (4), 16 zero ranges, 6 cov-or-zero, fix flag",
+    "true_start": "M7b: uncertainty-scaled random true pose around fixed estimated pose",
+    "actions": [
+      "short",
+      "wide",
+      "paid_localization_then_route"
+    ],
+    "evaluation_seeds": "low=990000+j, high=1090000+j, 0<=j<24",
+    "decision_budget": 240,
+    "hyperparameters": "Same as original M7c",
+    "train_schedule_seed": 31388
+  }
+}

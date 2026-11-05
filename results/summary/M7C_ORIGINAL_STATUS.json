@@ -1,0 +1,23 @@
+{
+  "milestone": "M7c",
+  "stage": "conditional_high_level_training",
+  "result": "PASS_EXECUTION",
+  "training_started": true,
+  "original_repositories_modified": false,
+  "source_run": "/home/sandbox/Repair_Bot_WS/mini_maze_uncertainty_rl/manual_pipeline/runs/M7B_PREFLIGHT_20261105T092702Z_65014",
+  "audit_exit_code": 0,
+  "train_command": [
+    "/home/sandbox/belief-aware-robot-navigation/.venv/bin/python",
+    "-B",
+    "/home/sandbox/Repair_Bot_WS/mini_maze_uncertainty_rl/manual_pipeline/runs/M7C_TRAIN_20261105T094040Z_65593/m7c_train.py",
+    "--train-episodes",
+    "240",
+    "--eval-per-regime",
+    "24",
+    "--report-every",
+    "40"
+  ],
+  "train_exit_code": 0,
+  "return_delta_belief_minus_point": 10.675416666666667,
+  "return_delta_belief_live_minus_fixed": 0.4558333333333344
+}
