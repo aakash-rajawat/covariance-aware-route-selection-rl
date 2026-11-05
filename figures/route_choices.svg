@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="430" viewBox="0 0 1030 430" role="img">
+<rect x="0" y="0" width="1030" height="430" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="35" y="50" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="700" fill="#14263D" text-anchor="start">Learned route choice at the two tested uncertainty levels</text>
+<text x="35" y="78" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#526476" text-anchor="start">Greedy evaluation on 48 common held-out cases; all 3 trained seeds agree</text>
+<text x="47" y="146" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14263D" text-anchor="start">Policy</text>
+<text x="433" y="146" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14263D" text-anchor="middle">Low covariance</text>
+<text x="822" y="146" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14263D" text-anchor="middle">High covariance</text>
+<rect x="32" y="159" width="962" height="46" rx="7" fill="#F7FAFC" stroke="none" stroke-width="1"/>
+<text x="47" y="187" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Point DQN</text>
+<rect x="355" y="169" width="158" height="32" rx="9" fill="#C97717" stroke="none" stroke-width="1"/>
+<text x="434" y="191" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">SHORT</text>
+<rect x="742" y="169" width="158" height="32" rx="9" fill="#C97717" stroke="none" stroke-width="1"/>
+<text x="821" y="191" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">SHORT</text>
+<rect x="32" y="210" width="962" height="46" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="47" y="238" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Belief DQN</text>
+<rect x="355" y="220" width="158" height="32" rx="9" fill="#C97717" stroke="none" stroke-width="1"/>
+<text x="434" y="242" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">SHORT</text>
+<rect x="742" y="220" width="158" height="32" rx="9" fill="#087E77" stroke="none" stroke-width="1"/>
+<text x="821" y="242" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">WIDE</text>
+<rect x="32" y="261" width="962" height="46" rx="7" fill="#F7FAFC" stroke="none" stroke-width="1"/>
+<text x="47" y="289" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14263D" text-anchor="start">Belief + zero covariance</text>
+<rect x="355" y="271" width="158" height="32" rx="9" fill="#C97717" stroke="none" stroke-width="1"/>
+<text x="434" y="293" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">SHORT</text>
+<rect x="742" y="271" width="158" height="32" rx="9" fill="#C97717" stroke="none" stroke-width="1"/>
+<text x="821" y="293" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">SHORT</text>
+<rect x="32" y="312" width="962" height="46" rx="7" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="47" y="340" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14263D" text-anchor="start">Belief + fixed covariance</text>
+<rect x="355" y="322" width="158" height="32" rx="9" fill="#087E77" stroke="none" stroke-width="1"/>
+<text x="434" y="344" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">WIDE</text>
+<rect x="742" y="322" width="158" height="32" rx="9" fill="#087E77" stroke="none" stroke-width="1"/>
+<text x="821" y="344" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">WIDE</text>
+<line x1="33" y1="390" x2="994" y2="390" stroke="#DEE5EC" stroke-width="1" stroke-dasharray=""/>
+<text x="43" y="416" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400" fill="#526476" text-anchor="start">No learned policy selected the paid localization action in these final evaluations.</text>
+</svg>

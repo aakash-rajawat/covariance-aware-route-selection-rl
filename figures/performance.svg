@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="630" viewBox="0 0 1120 630" role="img">
+<rect x="0" y="0" width="1120" height="630" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="40" y="52" font-family="DejaVu Sans,Arial,sans-serif" font-size="27" font-weight="700" fill="#14263D" text-anchor="start">Performance on the shared evaluation scenarios</text>
+<text x="40" y="81" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#526476" text-anchor="start">48 matched cases: 24 low uncertainty + 24 high uncertainty; identical evaluation seeds</text>
+<text x="45" y="137" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="700" fill="#14263D" text-anchor="start">Navigation success</text>
+<text x="575" y="137" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="700" fill="#14263D" text-anchor="start">Mean episode return</text>
+<line x1="558" y1="116" x2="558" y2="542" stroke="#DDE5EB" stroke-width="2" stroke-dasharray=""/>
+<text x="45" y="182" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Point DQN</text>
+<rect x="45" y="196" width="375" height="22" rx="6" fill="#EDF2F6" stroke="none" stroke-width="1"/>
+<rect x="45" y="196" width="226.6" height="22" rx="6" fill="#087EAB" stroke="none" stroke-width="1"/>
+<text x="433" y="214" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">29/48 (60.4%)</text>
+<text x="582" y="182" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Point DQN</text>
+<line x1="833.5" y1="192" x2="833.5" y2="223" stroke="#CDD9E2" stroke-width="2" stroke-dasharray=""/>
+<rect x="833.5" y="196" width="21.450385416666677" height="22" rx="5" fill="#087EAB" stroke="none" stroke-width="1"/>
+<text x="866.9503854166667" y="214" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">+2.34</text>
+<text x="45" y="271" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Belief DQN</text>
+<rect x="45" y="285" width="375" height="22" rx="6" fill="#EDF2F6" stroke="none" stroke-width="1"/>
+<rect x="45" y="285" width="304.7" height="22" rx="6" fill="#087E77" stroke="none" stroke-width="1"/>
+<text x="433" y="303" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">39/48 (81.3%)</text>
+<text x="582" y="271" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Belief DQN</text>
+<line x1="833.5" y1="281" x2="833.5" y2="312" stroke="#CDD9E2" stroke-width="2" stroke-dasharray=""/>
+<rect x="833.5" y="285" width="90.05262500000003" height="22" rx="5" fill="#087E77" stroke="none" stroke-width="1"/>
+<text x="935.552625" y="303" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">+9.81</text>
+<text x="45" y="360" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Always wide</text>
+<rect x="45" y="374" width="375" height="22" rx="6" fill="#EDF2F6" stroke="none" stroke-width="1"/>
+<rect x="45" y="374" width="304.7" height="22" rx="6" fill="#8192A2" stroke="none" stroke-width="1"/>
+<text x="433" y="392" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">39/48 (81.3%)</text>
+<text x="582" y="360" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Always wide</text>
+<line x1="833.5" y1="370" x2="833.5" y2="401" stroke="#CDD9E2" stroke-width="2" stroke-dasharray=""/>
+<rect x="833.5" y="374" width="85.84359374999997" height="22" rx="5" fill="#8192A2" stroke="none" stroke-width="1"/>
+<text x="931.34359375" y="392" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">+9.36</text>
+<text x="45" y="449" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Fix, then wide</text>
+<rect x="45" y="463" width="375" height="22" rx="6" fill="#EDF2F6" stroke="none" stroke-width="1"/>
+<rect x="45" y="463" width="351.6" height="22" rx="6" fill="#C97717" stroke="none" stroke-width="1"/>
+<text x="433" y="481" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">45/48 (93.8%)</text>
+<text x="582" y="449" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Fix, then wide</text>
+<line x1="833.5" y1="459" x2="833.5" y2="490" stroke="#CDD9E2" stroke-width="2" stroke-dasharray=""/>
+<rect x="833.5" y="463" width="117.48587499999996" height="22" rx="5" fill="#C97717" stroke="none" stroke-width="1"/>
+<text x="962.985875" y="481" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">+12.80</text>
+<line x1="45" y1="549" x2="1080" y2="549" stroke="#DEE5EC" stroke-width="1" stroke-dasharray=""/>
+<text x="45" y="580" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="700" fill="#14263D" text-anchor="start">Belief learns covariance-dependent routes, but fix-then-wide is the strongest tested strategy.</text>
+<text x="45" y="605" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400" fill="#526476" text-anchor="start">Same 48 cases are reused across all 3 training seeds; these are not 144 independent test scenarios.</text>
+</svg>

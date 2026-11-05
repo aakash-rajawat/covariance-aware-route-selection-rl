@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="620" viewBox="0 0 1050 620" role="img">
+<rect x="0" y="0" width="1050" height="620" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="38" y="52" font-family="DejaVu Sans,Arial,sans-serif" font-size="28" font-weight="700" fill="#14263D" text-anchor="start">The navigation decision</text>
+<text x="38" y="82" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#526476" text-anchor="start">M3b MuJoCo maze and reference waypoint options (top view)</text>
+<rect x="62" y="115" width="435.20000000000005" height="435.20000000000005" rx="10" fill="#F7FAFC" stroke="#DCE5ED" stroke-width="2"/>
+<rect x="62.0" y="536.6" width="435.2" height="13.6" rx="2" fill="#667A8F" stroke="none" stroke-width="1"/>
+<rect x="62.0" y="115.0" width="435.2" height="13.6" rx="2" fill="#667A8F" stroke="none" stroke-width="1"/>
+<rect x="62.0" y="115.0" width="13.6" height="435.2" rx="2" fill="#667A8F" stroke="none" stroke-width="1"/>
+<rect x="483.6" y="115.0" width="13.6" height="435.2" rx="2" fill="#667A8F" stroke="none" stroke-width="1"/>
+<rect x="232.0" y="196.6" width="95.2" height="136.0" rx="2" fill="#667A8F" stroke="none" stroke-width="1"/>
+<polyline points="130.0,251.0 177.6,393.8 381.6,393.8 381.6,257.8 422.4,251.0" fill="none" stroke="#087E77" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="177.6" cy="393.8" r="4.5" fill="#FFFFFF" stroke="#087E77" stroke-width="2"/>
+<circle cx="381.6" cy="393.8" r="4.5" fill="#FFFFFF" stroke="#087E77" stroke-width="2"/>
+<circle cx="381.6" cy="257.8" r="4.5" fill="#FFFFFF" stroke="#087E77" stroke-width="2"/>
+<polyline points="130.0,251.0 177.6,161.2 381.6,161.2 422.4,251.0" fill="none" stroke="#C97717" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="177.6" cy="161.2" r="4.5" fill="#FFFFFF" stroke="#C97717" stroke-width="2"/>
+<circle cx="381.6" cy="161.2" r="4.5" fill="#FFFFFF" stroke="#C97717" stroke-width="2"/>
+<circle cx="130.0" cy="251.0" r="12" fill="#087EAB" stroke="#FFFFFF" stroke-width="3"/>
+<text x="116.0" y="228.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Start</text>
+<circle cx="422.4" cy="251.0" r="13" fill="#FFFFFF" stroke="#087EAB" stroke-width="3"/>
+<circle cx="422.4" cy="251.0" r="6" fill="#087EAB" stroke="none" stroke-width="1"/>
+<text x="440.4" y="232.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" fill="#14263D" text-anchor="start">Goal</text>
+<line x1="584" y1="112" x2="584" y2="561" stroke="#DEE5EC" stroke-width="2" stroke-dasharray=""/>
+<text x="623" y="158" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" fill="#14263D" text-anchor="start">Two options, one goal</text>
+<line x1="623" y1="188" x2="670" y2="188" stroke="#C97717" stroke-width="7" stroke-dasharray=""/>
+<text x="690" y="194" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" fill="#14263D" text-anchor="start">Short / narrow</text>
+<text x="690" y="220" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#526476" text-anchor="start">More direct, less tolerant of error</text>
+<line x1="623" y1="280" x2="670" y2="280" stroke="#087E77" stroke-width="7" stroke-dasharray=""/>
+<text x="690" y="286" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" fill="#14263D" text-anchor="start">Wide / long</text>
+<text x="690" y="312" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#526476" text-anchor="start">Longer detour with more clearance</text>
+<text x="623" y="382" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" fill="#14263D" text-anchor="start">What the network decides</text>
+<text x="623" y="409" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#526476" text-anchor="start">Choose short, wide, or request</text>
+<text x="623" y="432" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#526476" text-anchor="start">a paid localization correction.</text>
+<rect x="613" y="474" width="389" height="73" rx="9" fill="#F3F6F9" stroke="none" stroke-width="1"/>
+<text x="629" y="501" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#526476" text-anchor="start">Route lines are reference waypoints,</text>
+<text x="629" y="525" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#526476" text-anchor="start">not measured robot trajectories.</text>
+</svg>
